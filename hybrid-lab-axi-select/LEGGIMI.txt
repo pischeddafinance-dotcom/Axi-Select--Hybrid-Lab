@@ -1,0 +1,64 @@
+AXI SELECT — GUIDA OPERATIVA
+Pacchetto pronto per la pubblicazione su GitHub Pages
+=======================================================
+
+COSA C'È DENTRO
+----------------
+Un solo file: axi-select-guida.html
+
+È completamente autonomo: l'immagine della Dashboard è incorporata
+dentro il file stesso (in base64), quindi non servono altre cartelle,
+immagini separate o fogli di stile esterni. Basta questo file.
+
+
+COME METTERLO ONLINE SU GITHUB PAGES (metodo semplice, da browser)
+--------------------------------------------------------------------
+Visto che il sito Hybrid Lab è già su GitHub Pages
+(pischeddafinance-dotcom.github.io/Hybrid-Lab), il modo più rapido è
+aggiungere questo file allo stesso repository, accanto a index.html
+e manuale-funnel.html.
+
+1. Vai sul repository "Hybrid-Lab" su github.com (con il tuo account).
+2. Clicca "Add file" → "Upload files" (in alto a destra, sopra la lista
+   dei file del repository).
+3. Trascina dentro axi-select-guida.html (questo file, estratto dallo zip).
+4. Scorri in basso e clicca "Commit changes" (va bene committare
+   direttamente sul branch principale, di solito "main").
+5. Aspetta circa 30-60 secondi: GitHub Pages ricostruisce il sito
+   automaticamente ad ogni commit.
+6. La pagina sarà online qui:
+
+   https://pischeddafinance-dotcom.github.io/Hybrid-Lab/axi-select-guida.html
+
+   Questo è il link da condividere con i clienti (Telegram, email,
+   messaggio diretto — funziona su qualsiasi dispositivo, niente da
+   scaricare, si apre nel browser).
+
+
+SE PREFERISCI USARE GIT DA TERMINALE
+--------------------------------------
+git add axi-select-guida.html
+git commit -m "Aggiunta guida operativa Axi Select"
+git push
+
+
+VUOI UN LINK PERSONALIZZATO O UN PULSANTE NEL MENU DEL SITO?
+----------------------------------------------------------------
+Puoi rinominare il file prima di caricarlo (es. axi-select.html invece
+di axi-select-guida.html) per accorciare il link — basta mantenere
+l'estensione .html.
+
+Se vuoi anche un link/pulsante a questa guida nel menu di navigazione
+del sito principale (index.html), mandami il file index.html attuale
+(o dimmi di recuperarlo) e te lo aggiungo.
+
+
+NOTE
+-----
+- Il file funziona anche solo aperto localmente con doppio click
+  (utile per controllarlo prima di pubblicarlo), ma per condividerlo
+  con i clienti serve un link online: da qui la pubblicazione su
+  GitHub Pages.
+- I caratteri (Fraunces / IBM Plex) si caricano da Google Fonts quando
+  chi apre la pagina ha connessione internet. Senza connessione,
+  la pagina resta leggibile con i font di sistema — nessun errore.
